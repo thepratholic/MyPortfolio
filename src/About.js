@@ -31,7 +31,7 @@ const About = () => {
                 <div className="text">I'm Pratham and I'm a <span className="typing-2 crazy"></span></div>
                 <p> I am a computer science enthusiast with BTech degree in progress from Birla Vishvakarma Mahavidyalaya. Renowned for my achievements in competitive programming, I hold good ranks in Leetcode, Codechef, and Codeforces. I've created several projects using technologies like Python, C++ and Javascript. Explore my portfolio to see the passion and expertise I bring to technology.
                     🚀🚀</p>
-                <a href="https://drive.google.com/file/d/1WBBHgou-77qnr60rG6yL264GWVR1_h33/view">Download
+                <a href="https://drive.google.com/file/d/14Dg-d3wQaO68cPNXB1kwvHe6whYh9z5C/view?usp=sharing">Download
                     CV</a>
             </div>
         </div>
