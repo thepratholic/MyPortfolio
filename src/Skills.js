@@ -60,12 +60,6 @@ const Skills = () => {
                     <div className="line flask"></div>
                 </div>
 
-                <div className="bars">
-                    <div className="info">
-                        <span>NextJS</span>
-                    </div>
-                    <div className="line nextjs"></div>
-                </div>
 
             </div>
         </div>
