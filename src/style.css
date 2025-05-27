@@ -347,7 +347,16 @@ section .title::after{
     background: #111;
     content: "let's connect";
 }
-.social .serv-content .card{
+
+.social .serv-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.social .serv-content .card {
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -356,33 +365,42 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.social .serv-content .card:hover{
+
+.social .serv-content .card:hover {
     background: #000080;
 }
-.social .serv-content .card .box{
+
+.social .serv-content .card .box {
     transition: all 0.3s ease;
 }
-.social .serv-content .card:hover .box{
+
+.social .serv-content .card:hover .box {
     transform: scale(1.05);
 }
-.social .serv-content .card i{
+
+.social .serv-content .card i {
     font-size: 50px;
     color: #000080;
     transition: color 0.3s ease;
 }
-.social .serv-content .card:hover i{
+
+.social .serv-content .card:hover i {
     color: #fff;
 }
-.social .serv-content .card .text{
+
+.social .serv-content .card .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.social .serv-content .card .text-sm{
+
+.social .serv-content .card .text-sm {
     font-size: 15px;
-    font-weight: 20;
-    /* margin: 10px 0 7px 0; */
+    font-weight: 400;
+    line-height: 1.6;
+    color: #fff;
 }
+
 /* skills section styling */
 
 .skills .title::after{

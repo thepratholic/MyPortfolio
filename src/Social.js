@@ -31,6 +31,19 @@ const Social = () => {
                     </div>
                 </a>
             </div>
+
+
+            <div className="card">
+                <a href="https://codolio.com/profile/thepratholic" style={{ color: 'white' }}>
+                    <div className="box">
+                        <i className="fab fa-codepen"></i>
+                        <div className="text">codolio</div>
+                        <div className="text-sm">
+                            <p>Hop onto my Coding Profiles!</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
       </div>
     </section>
